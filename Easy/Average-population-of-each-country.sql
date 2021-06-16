@@ -8,6 +8,5 @@ FROM COUNTRY
 JOIN CITY ON CITY.COUNTRYCODE = COUNTRY.CODE
 GROUP BY COUNTRY.CONTINENT;
 
-'''
+
 https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
-'''
